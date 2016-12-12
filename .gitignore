@@ -4,3 +4,4 @@ svg/
 images/
 client/node_modules
 passwd.*
+db/
