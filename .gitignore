@@ -1,0 +1,6 @@
+.idea/
+public/
+svg/
+images/
+client/node_modules
+passwd.*

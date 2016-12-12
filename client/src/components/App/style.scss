@@ -1,0 +1,99 @@
+body
+{
+	font-family: Arial, serif ;
+	background: #e2e2e2;//#9e3837;
+}
+#page
+{
+	position: relative;
+}
+#verbose
+{
+	$color: rgba(121, 208, 87, 0.34);
+	width: 100%;
+	height: 70px;
+	//background-color: $color;
+	//border-style: solid;
+	//border-width: 0px 0px 2px 0px;
+	//border-color: #1a1a1a;
+	-webkit-box-shadow: inset 0px -65px 57px -47px rgba(0,0,0,0.33);
+	-moz-box-shadow: inset 0px -65px 57px -47px rgba(0,0,0,0.33);
+	box-shadow: inset 0px -65px 57px -47px rgba(0,0,0,0.33);
+
+}
+#verbose_down
+{
+	position: relative;
+	width: 100%;
+	height: 440px;
+	-webkit-box-shadow: inset 0px 76px 57px -47px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 76px 57px -47px rgba(255,255,255,1);
+	box-shadow: inset 0px 76px 57px -47px rgba(255,255,255,1);
+}
+#content
+{
+	overflow: auto;
+	h1
+	{
+		text-align: center;
+	}
+	margin: 0;
+	padding: 10px;
+	height: auto;
+	-webkit-box-shadow: inset 0px 76px 57px -47px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 76px 57px -47px rgba(255,255,255,1);
+	box-shadow: inset 0px 76px 57px -47px rgba(255,255,255,1);
+}
+.map
+{
+	height: 500px;
+	width:100%;
+}
+.filler
+{
+	margin: 0 0 0 25%;
+}
+.row
+{
+	display: block;
+	overflow: auto;
+	//float: left;
+}
+.col
+{
+	width: 300px;
+	//min-height: 256px;
+	float: left;
+	margin: 10px;
+	padding: 2px;
+}
+#bookmark
+{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	z-index: 500;
+	img
+	{
+		width: 300px;
+		height: 300px;
+	}
+	button {
+		width: 50%;
+		//height: 100%;
+		height: 50%;
+		margin: 25%;
+		position: absolute;
+		background-color: rgba(74, 209, 110, 0);
+		border: 0px;
+		transition: all 0.1s;
+		font-size: 30px;
+		color: rgba(255, 255, 255,1);
+		//margin: 0 auto;
+		display: block;
+		border-radius: 10px;
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.11);
+		}
+	}
+}

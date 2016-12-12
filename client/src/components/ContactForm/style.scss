@@ -1,0 +1,103 @@
+#notify
+{
+	position: fixed;
+	overflow: hidden;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	z-index: 999;
+	font-size: 20px;
+	text-align: center;
+	div
+	{
+		margin: 40px;
+	}
+}
+.success
+{
+	background-color: rgba(43, 189, 64, 1);
+}
+.fail
+{
+	background-color: rgb(207, 75, 69);
+}
+.callback {
+	h3
+	{
+		margin: 0px;
+	}
+	h4
+	{
+		margin: 0;
+	}
+	.callback_form {
+		//height: 512px;
+		width: 220px;
+
+		input {
+			width: 150px;
+			height: 28px;
+			margin: 0;
+			padding: 2px;
+			//border: 0;
+		}
+
+		textarea {
+			overflow: auto;
+			position: relative;
+			resize: none;
+			//left: 32px;
+			width:90%;
+			height: 32px;
+			margin: 1px 1px 1px 5px;
+
+		}
+		button
+		{
+			color: #ffffff;
+			padding: 0px;
+			border: 0px;
+			font-size: 18px;
+			height: 45px;
+			transition: background-color 0.1s;
+			div
+			{
+				float: left;
+				margin: 8px;
+			}
+		}
+		.row {
+			margin: 1px 1px 1px 5px;
+			float: left;
+			//height: 32px;
+			.elem {
+				float: left;
+			}
+		}
+
+		.accept {
+
+			background-color: #38c65e;
+			transition: background-color 0.1s;
+			&:hover {
+				background-color: #33b376;
+			}
+		}
+		.decline {
+
+			background-color: #c63d45;
+			transition: background-color 0.1s;
+			&:hover {
+				background-color: #a32b43;
+			}
+		}
+
+	}
+	img {
+		width: 28px;
+		height: 28px;
+		margin: 4px;
+	}
+
+}
